@@ -133,7 +133,6 @@ for ds in datasets:
 
     ######################################################################
     # Prepare training and testing sets
-    # ---------------------------------
     #
     # Randomly pick 10% of the edges for positive examples in
     # the test set, and leave the rest for the training set. Then sample
@@ -180,11 +179,11 @@ for ds in datasets:
         pred = DotPredictor()
 
 
-        # 3. set up loss and optimizer
+        # set up loss and optimizer
         # in this case, loss will in training loop
         optimizer = torch.optim.Adam(itertools.chain(model.parameters(), pred.parameters()), lr=0.01)
 
-        # ----------- 4. training -------------------------------- #
+        # training
         for e in range(1001):
             # forward
             h = model(train_g, inputs)
@@ -200,7 +199,7 @@ for ds in datasets:
             if e % 100 == 0:
                 print('In epoch {}, loss: {}'.format(e, loss))
 
-        # ----------- 5. check results ------------------------ #
+        # check results
         from sklearn.metrics import roc_auc_score
         with torch.no_grad():
             pos_score = pred(test_pos_g, h)
