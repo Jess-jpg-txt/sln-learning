@@ -35,7 +35,7 @@ sln-learning/comp
 
 ### Notes on Reproducability
 
-You might obtain slightly different result by running code, due to the following sources of randomness:
+You might obtain slightly different results (compared to those presented in the paper) by running code, due to the following sources of randomness:
 * k-fold cross validation creates random splits
 * model parameters are initialized randomly
 
