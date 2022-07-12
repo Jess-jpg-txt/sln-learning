@@ -1,0 +1,14 @@
+All the provided data files are obtained after feature engineering and filtering out isolation nodes, which is why their names all start with `w_removal`.
+
+----------------------
+The columns in each file are is follows:
+First column: first node
+Second column: second node
+Third column: Jaccard coefficient (f1)
+Fourth column: Adamic-Adar index (f2)
+Fifth column: Resource allocation index (f3)
+Sixth column: Preferential attachment score (f4)
+Seventh column: Number of common topics (f5)
+Eighth column: Shortest path length (f6)
+Ninth column: Number of paths (f7)
+Tenth column: Link (1) or no link (0) between first and second node
