@@ -1,6 +1,6 @@
 # sln-learning
 
-This repository hosts code used to obtain results in our paper: [Predicting Learning Interactions in Social Learning Networks: A Deep Learning Enabled Approach.]()
+This repository hosts code used to obtain results in our paper: [Predicting Learning Interactions in Social Learning Networks: A Deep Learning Enabled Approach.](https://doi.org/10.1109/TNET.2023.3237978)
 
 ## Repository Structure
 
