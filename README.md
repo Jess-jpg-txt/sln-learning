@@ -47,3 +47,20 @@ To ensure success running of the program, the versions Python packages we used a
 ```
 pip install -r requirements.txt
 ```
+
+## Citation Requirement
+
+The SLN dataset and supporting code in this repository were introduced and developed in the following works:
+
+> [1] **T.-Y. Yang, C. G. Brinton, and C. Joe-Wong.**
+_Predicting Learner Interactions in Social Learning Networks._
+2018 IEEE Conference on Computer Communications (INFOCOM), pp. 1322–1330, 2018.
+https://doi.org/10.1109/INFOCOM.2018.8485927
+> 
+> [2] **R. Sahay, S. Nicoll, M. Zhang, T.-Y. Yang, C. Joe-Wong, K. A. Douglas, and C. G. Brinton.**
+_Predicting Learning Interactions in Social Learning Networks: A Deep Learning Enabled Approach._
+IEEE/ACM Transactions on Networking, vol. 31, no. 5, pp. 2086–2100, 2023.
+https://doi.org/10.1109/TNET.2023.3237978
+
+
+If you use this dataset, associated code, or results in your research, we kindly ask that you cite one or both of the above papers in any resulting academic work.
